@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+	<name>plg_system_t3中文语言包</name>
+    <author>Joomla中国</author>
+	<creationDate>2017-03-27</creationDate>
+    <copyright>南宁市程序人软件科技有限责任公司保留所有权利!</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>zhang19min88@163.com</authorEmail>
+    <authorUrl>http://www.joomlachina.cn</authorUrl>
+    <version>2.6.3.1</version>
+	<description>
+      <![CDATA[
+	  <div class="well well-small" style="background:url(http://www.joomlachina.cn/joomlalogo40_40.jpg) no-repeat 95% 95%;">
+			<div class="center">
+				<h3>plg_system_t3 v2.6.3.1 中文语言包</h3>
+				<h3>plg_system_t3 v2.6.3.1 Simple Chinese Language Package</h3>
+			</div>
+			<hr class="hr-condensed">
+			<dl class="dl-horizontal" >
+				<dt>版本:</dt>
+				<dd>V2.6.3.1</dd>
+				<dt>日期:</dt>
+				<dd>2017-03-27</dd>
+				<dt>作者:</dt>
+				<dd><a href="http://www.joomlachina.cn/hanhua-pingtai" target="_blank">Joomla中国汉化计划</a></dd>
+				<dt>许可:</dt>
+				<dd>GNU General Public License</dd>
+				<dt>格言:</dt>
+				<dd>人人为我，我为人人！ ONE FOR ALL ,ALL FOR ONE!</dd>
+			</dl>
+		</div>
+      ]]>
+   </description>
+	<fileset>
+		<files folder="language/admin" target="administrator/language/zh-CN">
+<filename>zh-CN.plg_system_t3.ini</filename>
+<filename>zh-CN.plg_system_t3.j25</filename>
+<filename>zh-CN.plg_system_t3.sys.ini</filename>
+</files>
+
+	</fileset>
+	
+	<updateservers>
+        <server type="collection" priority="1" name="plg_system_t3">http://www.joomlachina.cn</server>
+    </updateservers>
+	
+</extension>
