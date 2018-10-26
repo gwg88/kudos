@@ -30,3 +30,36 @@ DEBUG   |181023 02:48:36|-- Loading optional filter Stack\StackErrorlogs
 DEBUG   |181023 02:48:36|-- Loading optional filter Stack\StackHoststats
 DEBUG   |181023 02:48:36|-- Loading optional filter Stack\StackFinder
 DEBUG   |181023 02:48:36|-- Loading optional filter Stack\StackMyjoomla
+DEBUG   |181025 09:57:43| -- Resetting Akeeba Engine factory (backend.id2)
+DEBUG   |181025 09:57:43|Fetching filter data from database
+DEBUG   |181025 09:57:43|Loading filters
+DEBUG   |181025 09:57:43|-- Loading filter Directories
+DEBUG   |181025 09:57:43|-- Loading filter Extradirs
+DEBUG   |181025 09:57:43|-- Loading filter Files
+DEBUG   |181025 09:57:43|-- Loading filter Incremental
+DEBUG   |181025 09:57:43|-- Loading filter Multidb
+DEBUG   |181025 09:57:43|-- Loading filter Regexdirectories
+DEBUG   |181025 09:57:43|-- Loading filter Regexfiles
+DEBUG   |181025 09:57:43|-- Loading filter Regexskipdirs
+DEBUG   |181025 09:57:43|-- Loading filter Regexskipfiles
+DEBUG   |181025 09:57:43|-- Loading filter Regextabledata
+DEBUG   |181025 09:57:43|-- Loading filter Regextables
+DEBUG   |181025 09:57:43|-- Loading filter Skipdirs
+DEBUG   |181025 09:57:43|-- Loading filter Skipfiles
+DEBUG   |181025 09:57:43|-- Loading filter Tabledata
+DEBUG   |181025 09:57:43|-- Loading filter Tables
+DEBUG   |181025 09:57:43|-- Loading filter Cvsfolders
+DEBUG   |181025 09:57:43|-- Loading filter Excludefiles
+DEBUG   |181025 09:57:43|-- Loading filter Excludefolders
+DEBUG   |181025 09:57:43|-- Loading filter Excludetabledata
+DEBUG   |181025 09:57:43|-- Loading filter Joomlaskipdirs
+DEBUG   |181025 09:57:43|-- Loading filter Joomlaskipfiles
+DEBUG   |181025 09:57:43|-- Loading filter Libraries
+DEBUG   |181025 09:57:43|-- Loading filter Sitedb
+DEBUG   |181025 09:57:43|-- Loading filter Siteroot
+DEBUG   |181025 09:57:43|-- Loading filter Systemcachefiles
+DEBUG   |181025 09:57:43|Loading optional filters
+DEBUG   |181025 09:57:43|-- Loading optional filter Stack\StackErrorlogs
+DEBUG   |181025 09:57:43|-- Loading optional filter Stack\StackHoststats
+DEBUG   |181025 09:57:43|-- Loading optional filter Stack\StackFinder
+DEBUG   |181025 09:57:43|-- Loading optional filter Stack\StackMyjoomla
