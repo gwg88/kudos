@@ -304,8 +304,10 @@
 @navbar-default-link-color:                #707070;
 @navbar-default-link-hover-color:          #333;
 @navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         #555;
-@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
+// @navbar-default-link-active-color:         #555; // 原来
+@navbar-default-link-active-color:         rgba(0,0,0,.5);
+// @navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%); // 原来
+@navbar-default-link-active-bg:            rgba(255,255,255,.5);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
 
@@ -700,8 +702,8 @@
 // Global Margin& Padding
 // -------------------------
 @t3-global-margin:              @line-height-computed;
-@t3-global-padding:             @line-height-computed;
-
+// @t3-global-padding:             @line-height-computed; // 原始
+@t3-global-padding:             0;
 
 // Typography
 // -------------------------

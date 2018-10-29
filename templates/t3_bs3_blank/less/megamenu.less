@@ -22,6 +22,11 @@
 @import "../../../plugins/system/t3/base-bs3/less/megamenu.less";
 
 
+.t3-mainnav {
+	background: rgba(0,0,0,.5);
+	border: none;
+}
+
 //
 // BASIC STYLE FOR MEGAMENU
 // -------------------------
@@ -296,6 +301,23 @@
   .nav .input-group-addon .fa {
     margin-right: 0;
   }
+  
+  .navbar-nav {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		background: url(../images/themes/kudos/logo/logo.png) no-repeat 0 center;
+		// background-repeat: no-repeat;
+		> li {
+			text-align: center;
+			width: 14%;
+			> a {
+				display: block;
+				width: 100%;
+				color: #fff;
+			}
+		}
+	}
 
   // End
 }
