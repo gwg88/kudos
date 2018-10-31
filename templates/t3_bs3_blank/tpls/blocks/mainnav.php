@@ -9,7 +9,7 @@ defined('_JEXEC') or die;
 ?>
 
 <!-- MAIN NAVIGATION -->
-<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav navbar-fixed-top">
 	<div class="container">
 
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -33,6 +33,7 @@ defined('_JEXEC') or die;
 		<?php endif ?>
 
 		<div class="t3-navbar navbar-collapse collapse">
+			<!--<a href=""><img src="templates/t3_bs3_blank/images/themes/kudos/logo/logo.png"></a>-->
 			<jdoc:include type="<?php echo $this->getParam('navigation_type', 'megamenu') ?>" name="<?php echo $this->getParam('mm_type', 'mainmenu') ?>" />
 		</div>
 

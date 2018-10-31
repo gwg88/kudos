@@ -42,7 +42,7 @@
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #108ee9;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > li > .nav-header {
@@ -54,8 +54,9 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: rgba(0, 0, 0, 0.5);
-  background-color: rgba(255, 255, 255, 0.5);
+  color: #108ee9;
+  background-color: transparent;
+  border-bottom: 2px solid #108ee9;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -79,20 +80,20 @@
 }
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #333333;
-  border-bottom-color: #333333;
+  border-top-color: #108ee9;
+  border-bottom-color: #108ee9;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  color: #108ee9;
 }
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
-  border-top-color: rgba(0, 0, 0, 0.5);
-  border-bottom-color: rgba(0, 0, 0, 0.5);
+  border-top-color: #108ee9;
+  border-bottom-color: #108ee9;
 }
 .navbar-default .navbar-nav > .dropdown > a .caret {
   border-top-color: #707070;
@@ -104,14 +105,14 @@
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333333;
+    color: #108ee9;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: rgba(0, 0, 0, 0.5);
-    background-color: rgba(255, 255, 255, 0.5);
+    color: #108ee9;
+    background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -124,7 +125,7 @@
   color: #707070;
 }
 .navbar-default .navbar-link:hover {
-  color: #333333;
+  color: #108ee9;
 }
 .t3-mainnav {
   border-left: 0;
