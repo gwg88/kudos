@@ -1,0 +1,29 @@
+.modulenav-slide {
+	
+}
+
+.modulenav-slide .module-title {
+	margin-bottom: 0;
+}
+
+.modulenav-slide ul {
+		
+}
+
+.modulenav-slide ul li {
+}
+
+.modulenav-slide ul li a {
+	background: url(../../img/module-nav-side/normal.png) no-repeat 90% center;
+	border-radius: 0;
+	background-color: #ddd;
+	color: #333;
+}
+
+.modulenav-slide .nav-pills > li.active > a, 
+.modulenav-slide .nav-pills > li.active > a:hover, 
+.modulenav-slide .nav-pills > li.active > a:focus {
+	background: url(../../img/module-nav-side/act.png) no-repeat 90% center;
+	background-color: #fff;
+	color: #000;
+}
