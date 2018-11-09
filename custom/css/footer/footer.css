@@ -3,14 +3,14 @@ html,body{
     width: 100%;
     height: 100%;
 }
-.wrap{
+.footer-wrap{
     width: 100%;
     background: rgb(57, 59, 58);
     color: white;
     padding-top: 20px;
     padding-bottom:50px; 
 }
-.add_title{
+.footer-add_title{
     width: 100%;
     padding: 25px 0 25px 18px;
     margin: auto;
@@ -18,14 +18,14 @@ html,body{
     /* background: pink; */
     font-size: 26px;
 }
-.addInpCon{
+.footer-addInpCon{
     width: 100%;
     height: 40px;
     /* background: pink; */
     margin:0 auto 30px auto;
     position: relative;
 }
-.add_btn{
+.footer-add_btn{
     width: 130px;
     height: 40px;
     margin:40px auto 0 auto;
@@ -34,13 +34,13 @@ html,body{
     text-align: center;
     line-height: 40px
 }
-.addInp{
+.footer-addInp{
     width: 50%;
     float: left;
     padding-left: 80px;
     position: relative;
 }
-.addInp input{
+.footer-addInp input{
     width: 100%;
     /* height: 40px; */
     padding: 5px;
@@ -48,7 +48,7 @@ html,body{
     border:none;
     border-radius: 8px;
 }
-.addInpCon p{
+.footer-addInpCon p{
     width: 80px;
     height: 35px;
     text-align: center;
@@ -57,17 +57,17 @@ html,body{
     top: 0;
     left: 0;
 }
-.addInp textarea{
+.footer-addInp textarea{
     width: 100%;
     display: block;
 }
-.addInpCon_text{
+.footer-addInpCon_text{
     width: 100%;
     margin: auto;
     padding-left: 80px;
     position: relative;
 }
-.addInpCon_text p{
+.footer-addInpCon_text p{
     width: 80px;
     height: 40px;
     text-align: center;
@@ -76,24 +76,24 @@ html,body{
     top: 0;
     left: 0;
 }
-.addInpCon_text input{
+.footer-addInpCon_text input{
     width: 100%;
     height: 100px;
     display: block;
     /* line-height: 10px; */
 }
 /*  */
-.callCon{
+.footer-callCon{
     width: 100%;
     padding: 10px;
     text-align: left
 }
 /*  */
-.follow-wz{
+.footer-follow-wz{
     padding:0 15px;
     font-size: 18px; 
 }
-.follow-img{
+.footer-follow-img{
     width: 140px;
     height: 140px;
     display: block;
