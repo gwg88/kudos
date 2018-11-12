@@ -12,9 +12,11 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
+	// public $host = 'localhost';
+	public $host = '132.232.63.237';
 	public $user = 'root';
-	public $password = '';
+	// public $password = '';
+	public $password = '123456';
 	public $db = 'kudos';
 	public $dbprefix = 'gwg88_';
 	public $live_site = '';

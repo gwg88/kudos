@@ -1,0 +1,167 @@
+
+.modulehome-about-us .djslider-default .slide-desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modulehome-about-us .djslider-default .slide-desc-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modulehome-about-us .slide-desc-text-default {
+	height: 100%;
+}
+
+.modulehome-about-us .slide-text {
+	height: 100%;
+}
+
+
+.module-aboutus.wrap{
+	display: flex;
+	flex-direction: column;
+	padding: 4% 0;
+	width: 100%;
+	height: 100%;
+	background: blue url("../../../images/home-bg/about-us/about-bg.png") no-repeat center;
+	font-style: "微软雅黑";
+    
+}
+.module-aboutus.wrap .tit-img{
+	margin: 2% auto;
+	width: 100%;
+	max-width: 800px;
+}
+.module-aboutus.wrap .tit-img img{
+	display: block;
+	width: 100%;
+}
+.module-aboutus.wrap .tit-text{
+	margin: 3% auto;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+.module-aboutus.wrap .introduce{
+	margin: .5em auto;
+  width: 80%;
+  color: #fff;
+  font-weight: 600;
+}
+.module-aboutus.wrap .main-con{
+	display: flex;
+	flex: 1;
+	position: relative;
+	margin: auto;
+  width: 80%;
+}
+.module-aboutus.wrap .con-text{
+	flex: 1;
+}
+.module-aboutus.wrap .con-title{
+  padding: 3% 0px;
+  color: #fff;
+}
+.module-aboutus.wrap .con-paragraph{
+	margin-bottom: 3%;
+  color: #fff;
+}
+.module-aboutus.wrap .con-img{
+  display: none;
+}
+.module-aboutus.wrap .con-img img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+	.module-aboutus.wrap .tit-text {
+    font-size: 30px;
+  }
+  .module-aboutus.wrap .introduce {
+    font-size: 16px;
+    text-indent:18px;
+  }
+  .module-aboutus.wrap .con-title{
+  	font-size: 18px;
+  }
+  .module-aboutus.wrap .con-paragraph{
+    font-size: 14px;
+  }
+  
+  .module-aboutus.wrap .con-text{
+    width: 100%;
+	}
+  .module-aboutus.wrap .con-img{
+  	display: none;
+	}
+	
+}
+
+
+@media (min-width: 992px) {
+	.module-aboutus.wrap .tit-text {
+    font-size: 40px;
+  }
+  .module-aboutus.wrap .introduce {
+    font-size: 18px;
+    text-indent:18px;
+  }
+  .module-aboutus.wrap .con-title{
+  	font-size: 21px;
+  }
+  .module-aboutus.wrap .con-paragraph{
+    font-size: 16px;
+  }
+  
+  .module-aboutus.wrap .main-con {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+  
+  .module-aboutus.wrap .con-img{
+  	width: 35%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.module-aboutus.wrap .con-img > img{
+  	max-width: 100%;
+  	height: auto;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	.module-aboutus.wrap .tit-text {
+    font-size: 50px;
+  }
+  .module-aboutus.wrap .introduce {
+    font-size: 20px;
+    text-indent:20px;
+  }
+  .module-aboutus.wrap .con-title{
+  	font-size: 25px;
+  }
+  .module-aboutus.wrap .con-paragraph{
+    font-size: 21px;
+  }  
+  
+}
+
