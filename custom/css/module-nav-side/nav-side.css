@@ -1,5 +1,6 @@
+
 .modulenav-slide {
-	
+	/* background:pink; */
 }
 
 .modulenav-slide .module-title {
@@ -7,17 +8,24 @@
 }
 
 .modulenav-slide ul {
-		
+	font-size: 18px;
 }
 
 .modulenav-slide ul li {
+	
 }
 
 .modulenav-slide ul li a {
+	padding-top:0; 
+	padding-left: 40px;
 	background: url(../../img/module-nav-side/normal.png) no-repeat 90% center;
 	border-radius: 0;
-	background-color: #ddd;
-	color: #333;
+	/* background-color: #ddd; */
+	color:rgb(102, 102, 102);
+	height: 65px;
+	line-height: 65px;
+	background-color: rgb(247, 247, 247);
+	display: block;
 }
 
 .modulenav-slide .nav-pills > li.active > a, 
@@ -25,5 +33,5 @@
 .modulenav-slide .nav-pills > li.active > a:focus {
 	background: url(../../img/module-nav-side/act.png) no-repeat 90% center;
 	background-color: #fff;
-	color: #000;
+	color: rgb(15,102,119);
 }
