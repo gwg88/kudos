@@ -1,5 +1,165 @@
-.k2ItemsBlock ul li a {
-    position: absolute;
+.k2ItemsBlock.news-list > ul {
+  margin-top: 0;
+}
+.k2ItemsBlock.news-list > ul > li .moduleItemDateCreated {
+  color: #666;
+}
+.k2ItemsBlock.news-list > ul > li:not(:first-child) {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5em;
+  margin-bottom: .5em;
+  background: url(../../img/module-news-side/dot.png) no-repeat 0 center;
+}
+.k2ItemsBlock.news-list > ul > li:not(:first-child) > a.moduleItemTitle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(65% - 1em);
+  color: #333;
+  z-index: 1;
+  text-indent: 1em;
+  font-size: 1.3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.k2ItemsBlock.news-list > ul > li:not(:first-child) .moduleItemIntrotext {
+  display: none;
+}
+.k2ItemsBlock.news-list > ul > li:not(:first-child) .moduleItemDateCreated {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+.k2ItemsBlock.news-list > ul > li:first-child {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 145px;
+  margin-bottom: 1rem;
+}
+.k2ItemsBlock.news-list > ul > li:first-child > a.moduleItemTitle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: calc(60% - 1em);
+  color: #333;
+  z-index: 1;
+  font-size: 1.3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.k2ItemsBlock.news-list > ul > li:first-child .moduleItemIntrotext {
+  padding: 2em 0 0em calc(40% + 1em);
+  max-height: calc(100% - 2.9em);
+  overflow: hidden;
+  font-size: .9em;
+}
+.k2ItemsBlock.news-list > ul > li:first-child .moduleItemIntrotext .moduleItemImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+}
+.k2ItemsBlock.news-list > ul > li:first-child .moduleItemIntrotext .moduleItemImage > img {
+  float: none;
+  max-width: 100%;
+  margin: 0;
+}
+.k2ItemsBlock.news-list > ul > li:first-child .moduleItemDateCreated {
+  position: absolute;
+  right: 0;
+  bottom: 1em;
+  text-align: right;
+}
+.k2ItemsBlock.news-list > ul > li:last-child {
+  display: none;
+}
+@media (max-width: 768px) {
+  .k2ItemsBlock.news-list {
+    margin-top: 3rem;
+  }
+  .k2ItemsBlock.news-list ul > li {
+    display: none;
+  }
+  .k2ItemsBlock.news-list ul > li:first-child {
+    display: block;
+    height: 140px;
+    margin-bottom: -2rem;
+  }
+  .k2ItemsBlock.news-list ul > li:first-child a.moduleItemTitle {
+    width: calc(70% - 1em);
+  }
+  .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
+    padding: 2em 0 0em calc(30% + 1em);
+    max-height: calc(100% - 2.5em);
+    overflow: hidden;
+    font-size: .9em;
+  }
+  .k2ItemsBlock.news-list .moduleItemImage {
+    height: 100%;
+  }
+  .k2ItemsBlock.news-list .moduleItemImage > img {
     height: 100%;
     width: auto;
+  }
+  .k2ItemsBlock.news-list .moduleItemDateCreated {
+    bottom: 0 !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .k2ItemsBlock.news-list {
+    margin-top: 3rem;
+  }
+  .k2ItemsBlock.news-list ul > li {
+    display: none;
+  }
+  .k2ItemsBlock.news-list ul > li:first-child {
+    display: block;
+    margin-bottom: -2rem;
+  }
+  .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
+    padding: 2em 0 0em calc(20% + 1em);
+    max-height: calc(100% - 2.9em);
+    overflow: hidden;
+    font-size: .9em;
+  }
+  .k2ItemsBlock.news-list .moduleItemImage {
+    height: 100%;
+  }
+  .k2ItemsBlock.news-list .moduleItemImage > img {
+    height: 100%;
+    width: auto;
+  }
+  .k2ItemsBlock.news-list .moduleItemDateCreated {
+    bottom: 0 !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .k2ItemsBlock.news-list ul > li:first-child {
+    height: 110px;
+  }
+  .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
+    max-height: calc(100% - 1.5em);
+  }
+  .k2ItemsBlock.news-list ul > li:first-child .moduleItemDateCreated {
+    bottom: -1em !important;
+  }
+  .k2ItemsBlock.news-list ul > li:not(:first-child) .moduleItemTitle {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 1200px) {
+  ul > li:first-child .moduleItemIntrotext {
+    max-height: calc(100% - 1.5em) !important;
+  }
+  ul > li:first-child .moduleItemDateCreated {
+    bottom: -0.5em !important;
+  }
 }
