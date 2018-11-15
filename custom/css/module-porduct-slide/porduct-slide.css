@@ -1,0 +1,35 @@
+.t3-wrapper {
+  background: #fafafa;
+}
+.t3-spotlight.t3-spotlight-2.row .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  background: #fff;
+}
+.module-product-slide ul.djslider-in > li .slide-desc {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in {
+  height: 100%;
+  width: 100%;
+}
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in:hover .slide-desc-bg,
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in:hover .slide-desc-text {
+  transform: translateX(0);
+}
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in .slide-desc-bg,
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in .slide-desc-text {
+  height: 100%;
+  width: 100%;
+  transform: translateX(-100%);
+  transition: transform .3s;
+}
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in .slide-desc-bg .slide-text > h5,
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in .slide-desc-text .slide-text > h5,
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in .slide-desc-bg .slide-text > p,
+.module-product-slide ul.djslider-in > li .slide-desc .slide-desc-in .slide-desc-text .slide-text > p {
+  text-align: left !important;
+}

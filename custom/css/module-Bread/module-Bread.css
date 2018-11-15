@@ -1,18 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.module-Bread.wrap{
+.bread.wrap{
     width: 100%;
     text-align: right;
     margin-top: 10px;
-    border-bottom: 1px solid rgb(230, 230, 230);
+    /*border-bottom: 1px solid rgb(230, 230, 230);*/
     float: right;
     box-sizing: border-box;
 }
 
+.t3-navhelper,
 .breadcrumb{
-    background: white;
+    background: transparent;
+}
+
+#t3-mainnav ul > li{
+	background: transparent;
 }

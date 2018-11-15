@@ -19,10 +19,10 @@ defined('_JEXEC') or die;
 		<!-- //FOOT NAVIGATION -->
 	<?php endif ?>
 
-	<section class="t3-copyright">
+	<section class="t3-copyright" style="background: #fff;">
 		<div class="container">
 			<div class="row">
-				<div class="<?php echo $this->getParam('t3-rmvlogo', 1) ? 'col-md-8' : 'col-md-12' ?> copyright <?php $this->_c('footer') ?>">
+				<!--<div class="<?php echo $this->getParam('t3-rmvlogo', 1) ? 'col-md-8' : 'col-md-12' ?> copyright <?php $this->_c('footer') ?>">
 					<jdoc:include type="modules" name="<?php $this->_p('footer') ?>" />
           <small>
             <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a> is a front-end framework of Twitter, Inc. Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.
@@ -36,7 +36,8 @@ defined('_JEXEC') or die;
 						<a class="t3-logo t3-logo-color" href="http://t3-framework.org" title="<?php echo JText::_('T3_POWER_BY_TEXT') ?>"
 						   target="_blank" <?php echo method_exists('T3', 'isHome') && T3::isHome() ? '' : 'rel="nofollow"' ?>><?php echo JText::_('T3_POWER_BY_HTML') ?></a>
 					</div>
-				<?php endif; ?>
+				<?php endif; ?>-->
+				<div style="height: 30px;line-height: 30px;text-align: center;">惠州市星链快迪零售服务有限公司<!--<span class="xs-hidden">&nbsp;&nbsp;&nbsp;&nbsp;ICP备案：1234567899</span>--></div>	
 			</div>
 		</div>
 	</section>
