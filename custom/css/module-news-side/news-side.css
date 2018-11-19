@@ -47,7 +47,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  width: calc(60% - 1em);
+  width: calc(62% - 1em);
   color: #333;
   z-index: 1;
   font-size: 1.3em;
@@ -94,7 +94,7 @@
     margin-bottom: -2rem;
   }
   .k2ItemsBlock.news-list ul > li:first-child a.moduleItemTitle {
-    width: calc(70% - 1em);
+    width: calc(71% - 1em);
   }
   .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
     padding: 2em 0 0em calc(30% + 1em);
@@ -123,6 +123,9 @@
   .k2ItemsBlock.news-list ul > li:first-child {
     display: block;
     margin-bottom: -2rem;
+  }
+  .k2ItemsBlock.news-list ul > li:first-child a.moduleItemTitle {
+    width: calc(81% - 1em);
   }
   .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
     padding: 2em 0 0em calc(20% + 1em);

@@ -6,6 +6,9 @@
   padding-bottom: 30px;
   background: #fff;
 }
+.module-product-slide .djslider-loader-default:focus {
+  outline: none;
+}
 .module-product-slide ul.djslider-in > li .slide-desc {
   width: 100%;
   height: 100%;
