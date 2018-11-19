@@ -1029,11 +1029,11 @@ class T3Template extends ObjectExtendable
 		foreach ($doc->_scripts as $url => $script) {
 			$replace = false;
 
-			if ((strpos($url, '//ajax.googleapis.com/ajax/libs/jquery/') !== false &&
+			if ((strpos($url, '//ajax.useso.com/ajax/libs/jquery/') !== false &&
 					preg_match_all('@/jquery/(\d+(\.\d+)*)?/@msU', $url, $jqver)) ||
 				(preg_match_all('@(^|\/)jquery([-_]*(\d+(\.\d+)+))?(\.min)?\.js@i', $url, $jqver))) {
 
-				$idx = strpos($url, '//ajax.googleapis.com/ajax/libs/jquery/') !== false ? 1 : 3;
+				$idx = strpos($url, '//ajax.useso.com/ajax/libs/jquery/') !== false ? 1 : 3;
 
 				if (is_array($jqver) && isset($jqver[$idx]) && isset($jqver[$idx][0])) {
 					$jqver = explode('.', $jqver[$idx][0]);
