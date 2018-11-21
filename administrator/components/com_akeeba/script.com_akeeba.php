@@ -42,7 +42,7 @@ class Com_AkeebaInstallerScript extends \FOF30\Utils\InstallScript
 	 *
 	 * @var   string
 	 */
-	protected $minimumJoomlaVersion = '3.3.0';
+	protected $minimumJoomlaVersion = '3.4.0';
 
 	/**
 	 * Obsolete files and folders to remove from the free version only. This is used when you move a feature from the

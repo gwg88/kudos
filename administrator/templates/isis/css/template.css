@@ -9102,3 +9102,18 @@ input:focus,
 		column-count: auto;
 	}
 }
+
+
+/*自定义后台样式 begin----------------------------*/
+
+/*警告栏*/
+#system-message-container,
+#system-message-container .alert {
+	display: none;
+}
+
+/*COM_DJIMAGESLIDER 广告  */
+#j-main-container .cpanel-right .cpanel.well {
+	display: none;
+}
+/*自定义后台样式 end----------------------------*/

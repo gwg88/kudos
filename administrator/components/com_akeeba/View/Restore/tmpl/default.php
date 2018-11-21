@@ -57,7 +57,7 @@ akeeba.System.documentReady(function() {
     onProcEngineChange();
 
 	// Work around Safari which ignores autocomplete=off
-	setTimeout('akeeba.Restore.restoreDefaultOptions();', 500);
+	setTimeout(akeeba.Restore.restoreDefaultOptions, 500);
 });
 
 JS;

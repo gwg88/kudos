@@ -2,7 +2,7 @@
 <extension type="package" version="3.8" method="upgrade">
 	<name>Chinese Simplified (zh-CN) Language Pack</name>
 	<packagename>zh-CN</packagename>
-	<version>3.8.13.1</version>
+	<version>3.9.0.1</version>
 	<creationDate>2018年10月</creationDate>
 	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
 	<authorEmail>zhou_yongjian@hotmail.com</authorEmail>
