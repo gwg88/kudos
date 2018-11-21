@@ -34,7 +34,7 @@ defined('_JEXEC') or die();
     	</p>
 
     	<?php /* Changelog */ ?>
-    	<a href="#" id="btnchangelog" class="akeeba-btn--primary">CHANGELOG</a>
+    	<a href="#" id="btnchangelog" class="akeeba-btn--primary">更改日志</a>
 
     	<div id="akeeba-changelog" tabindex="-1" role="dialog" aria-hidden="true" style="display:none;">
             <div class="akeeba-renderer-fef">
@@ -56,7 +56,7 @@ defined('_JEXEC') or die();
     		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline-block">
     			<input type="hidden" name="cmd" value="_s-xclick" />
     			<input type="hidden" name="hosted_button_id" value="10903325" />
-    			<input type="submit" class="akeeba-btn--green" value="Donate via PayPal" />
+    			<input type="submit" class="akeeba-btn--green" value="通过PayPal支付捐赠" />
     			<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     		</form>
     	<?php endif; ?>

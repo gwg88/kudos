@@ -35,7 +35,7 @@ SELECT COUNT(*) FROM "#__ak_profiles" WHERE "id" = 1;
             <query><![CDATA[
 INSERT INTO "#__ak_profiles"
 ("id","description", "configuration", "filters", "quickicon") VALUES
-(1,'Default Backup Profile','','',1);
+(1,'默认备份配置文件','','',1);
             ]]></query>
         </action>
 
