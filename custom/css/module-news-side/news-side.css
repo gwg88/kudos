@@ -21,7 +21,7 @@
   color: #333;
   z-index: 1;
   text-indent: 1em;
-  font-size: 1.3em;
+  font-size: 1.1em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -50,7 +50,7 @@
   width: calc(62% - 1em);
   color: #333;
   z-index: 1;
-  font-size: 1.3em;
+  font-size: 1.1em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -125,11 +125,11 @@
     margin-bottom: -2rem;
   }
   .k2ItemsBlock.news-list ul > li:first-child a.moduleItemTitle {
-    width: calc(81% - 1em);
+    width: calc(80.5% - 1em);
   }
   .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
-    padding: 2em 0 0em calc(20% + 1em);
-    max-height: calc(100% - 2.9em);
+    padding: 3em 0 0em calc(20% + 1em);
+    max-height: calc(100% - 2em);
     overflow: hidden;
     font-size: .9em;
   }
@@ -149,26 +149,41 @@
     background: #fff;
   }
   .k2ItemsBlock.news-list ul > li:first-child {
-    height: 110px;
+    height: 117px;
   }
   .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
-    max-height: calc(100% - 1.5em);
+    max-height: calc(100% - 2em);
+    padding: 2em 0 0em calc(40% + 1em) !important;
   }
   .k2ItemsBlock.news-list ul > li:first-child .moduleItemDateCreated {
-    bottom: -1em !important;
+    bottom: -0.3em !important;
   }
   .k2ItemsBlock.news-list ul > li:not(:first-child) .moduleItemTitle {
-    font-size: 16px !important;
+    width: calc(80% - 1em) !important;
+    font-size: .9em !important;
+    line-height: 2em !important;
   }
 }
 @media (min-width: 1200px) {
-  ul > li {
+  .k2ItemsBlock.news-list > ul {
+    margin-bottom: 1em !important;
+  }
+  .k2ItemsBlock.news-list ul > li {
     background: #fff;
   }
-  ul > li:first-child .moduleItemIntrotext {
-    max-height: calc(100% - 1.5em) !important;
+  .k2ItemsBlock.news-list ul > li:first-child .moduleItemIntrotext {
+    max-height: calc(100% - 1.8em) !important;
+    padding: 3em 0 0em calc(40% + 1em) !important;
   }
-  ul > li:first-child .moduleItemDateCreated {
+  .k2ItemsBlock.news-list ul > li:first-child .moduleItemDateCreated {
     bottom: 0 !important;
+  }
+  .k2ItemsBlock.news-list ul > li:not(:first-child) {
+    margin-bottom: .3em !important;
+  }
+  .k2ItemsBlock.news-list ul > li:not(:first-child) .moduleItemTitle {
+    width: calc(80% - 1em) !important;
+    font-size: .9em !important;
+    line-height: 2em !important;
   }
 }
