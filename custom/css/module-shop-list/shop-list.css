@@ -1,0 +1,223 @@
+.k2ItemsBlock.shop-list > ul {
+  margin-top: 0;
+  margin-bottom: 1em !important;
+}
+.k2ItemsBlock.shop-list > ul > li:last-child {
+  display: none;
+}
+.k2ItemsBlock.shop-list ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.k2ItemsBlock.shop-list ul > li > a.moduleItemTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #333;
+}
+.k2ItemsBlock.shop-list ul > li .moduleItemIntrotext {
+  overflow: hidden;
+  color: #999;
+}
+.k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage > img {
+  margin: 0;
+}
+.k2ItemsBlock.shop-list ul > li .moduleItemDateCreated {
+  display: none;
+}
+@media (max-width: 768px) {
+  .k2ItemsBlock.shop-list > ul {
+    margin-bottom: 1em !important;
+  }
+  .k2ItemsBlock.shop-list ul > li {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 65% 0 50px;
+    overflow: hidden;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle {
+    position: relative;
+    left: 0;
+    z-index: 0;
+    padding: 0 10px;
+    width: 100%;
+    font-size: 1.8em;
+    overflow: visible;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle:after {
+    content: "点击查看";
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    background: #f15a49;
+    color: #fff;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext {
+    padding: 0 10px;
+    width: 100%;
+    height: 60px;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage > img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .k2ItemsBlock.shop-list > ul {
+    margin-bottom: 1em !important;
+  }
+  .k2ItemsBlock.shop-list ul > li {
+    float: left;
+    width: 50%;
+    max-width: 310px;
+    margin-bottom: 2em;
+    padding: 180px 10px 50px;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    z-index: 0;
+    padding: 0 10px;
+    width: 100%;
+    height: 150px;
+    font-size: 1.8em;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle:after {
+    content: "点击查看";
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext {
+    height: 60px;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage {
+    width: 100%;
+    height: 100%;
+    max-height: 136px;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage > img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .k2ItemsBlock.shop-list > ul {
+    margin-bottom: 1em !important;
+  }
+  .k2ItemsBlock.shop-list ul > li {
+    float: left;
+    width: 50%;
+    max-width: 310px;
+    margin-bottom: 2em;
+    padding: 240px 10px 50px;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 0;
+    padding: 0 10px;
+    width: 100%;
+    height: 150px;
+    font-size: 2.1em;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle:after {
+    content: "点击查看";
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext {
+    height: 60px;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage {
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage > img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .k2ItemsBlock.shop-list > ul {
+    margin-bottom: 1em !important;
+  }
+  .k2ItemsBlock.shop-list ul > li {
+    float: left;
+    width: 50%;
+    max-width: 420px;
+    margin-bottom: 2em;
+    padding: 300px 10px 50px;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    z-index: 0;
+    padding: 0 10px;
+    width: 100%;
+    height: 200px;
+    font-size: 2.1em;
+  }
+  .k2ItemsBlock.shop-list ul > li > a.moduleItemTitle:after {
+    content: "点击查看";
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext {
+    height: 60px;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage {
+    width: 100%;
+    height: 100%;
+    max-height: 260px;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .k2ItemsBlock.shop-list ul > li .moduleItemIntrotext .moduleItemImage > img {
+    width: 100%;
+    height: auto;
+  }
+}

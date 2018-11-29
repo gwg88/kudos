@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="../../css/footer/footer.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div class="footer-wrap">
+	<!--<div class="footer-wrap">
 		<div class="footer-add_title">加入我们</div>
 
 		<div class="footer-addInpCon">
@@ -33,10 +33,46 @@
 
 		<div class="footer-addInpCon_text">
 			<p>您的意见:</p>
-			<!--<input type="text">-->
 			<textarea placeholder="请输入您的意见"></textarea>	
 		</div>
 		<div class="footer-add_btn">提交</div>
+	</div>-->
+	
+	<!--<form id="info_form" action="http://www.hzmumi.com/kudos/kudos_pii.php" method="post" target="hidden_iframe">-->
+	
+	
+	<div class="footer-wrap">
+		<div class="footer-add_title">加入我们</div>
+		
+		<form id="info_form" method="post" >
+			
+			<div class="footer-addInpCon">
+				<div class="footer-addInp">
+					<p>您的姓名:</p>
+					<input type="text" id="name_info" name="name" placeholder="请输入您的姓名" /></div>
+				<div class="footer-addInp">
+					<p>手机号码:</p>
+					<input type="text" id="phone_info" name="phone" placeholder="请输入手机号码" /></div>
+			</div>
+			<div class="footer-addInpCon">
+				<div class="footer-addInp">
+					<p>您的城市:</p>
+					<input type="text" id="city_info" name="city" placeholder="请输入您的城市" /></div>
+				<div class="footer-addInp">
+					<p>您的微信:</p>
+					<input type="text" id="wechat_info" name="wechat" placeholder="请输入您的微信" /></div>
+			</div>
+			<div class="footer-addInpCon_text">
+				<p>您的意见:</p>
+				<textarea id="piitext_info" name="piitext" placeholder="请输入您的意见"></textarea></div>
+			
+			<input id="info_form_btn" type="submit" class="footer-add_btn" value="提交"/>
+		</form>
+			
+		
 	</div>
+	
+	
+	
 </body>
 </html>
