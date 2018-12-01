@@ -32,7 +32,7 @@
           $("#piitext_info").val() !== "" ) {
       	$.ajax({
           type: "post",
-          url: "http://www.hzmumi.com/kudos/kudos_pii.php",
+          url: "https://www.hzmumi.com/kudos/kudos_pii.php",
           data: $('#info_form').serialize(),
         }).success(function(message) {
           fixText ("提交成功")
@@ -42,7 +42,7 @@
           console.log("formSubmit err：",err)
         })
       }else {
-        fixText ("提交失败，请检查并填写完整信息")
+        fixText ("提交失败")
       }
  
     }

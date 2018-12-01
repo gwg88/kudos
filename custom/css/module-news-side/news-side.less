@@ -7,14 +7,28 @@
 			}
 			
 		}
-		> li:not(:first-child) {
+		// > li:not(:first-child)
+		> li:not(:nth-child(3n+1)) {
 		    position: relative;
 			  top: 0;
 			  left: 0;
 			  width: 100%;
 			  height: 1.5em;
 			  margin-bottom: .5em;
-			  background: #fff url(../../img/module-news-side/dot.png) no-repeat 0 center;
+			  // background: #fff url(../../img/module-news-side/dot.png) no-repeat 0 center;
+			  
+			  &:after {
+			    content: "";
+			    width: .5em;
+			    height: .5em;
+			    background: #000;
+			    position: absolute;
+			    left: 0;
+			    top: 50%;
+			    border-radius: 50%;
+			    transform: translate3d(0,-50%,0);
+				}
+			  
 			> a {
 				&.moduleItemTitle {
 			    position: absolute;
@@ -41,7 +55,8 @@
 			}
 		}
 		
-		> li:first-child {
+		// > li:first-child {
+		> li:nth-child(3n+1) {
 		    position: relative;
 			  top: 0;
 			  left: 0;
@@ -103,7 +118,8 @@
 		margin-top: 3rem;
 		ul > li {
 			
-			&:first-child {
+			// &:first-child {
+			&:nth-child(3n+1) {		
 				display: block;
 				height: 105px;
 				margin-bottom: -2rem;
@@ -140,7 +156,8 @@
 		margin-top: 3rem;
 		
 		ul > li {
-			&:first-child {
+			// &:first-child {
+			&:nth-child(3n+1) {		
 				display: block;
 				margin-bottom: -2rem;
 				a.moduleItemTitle {
@@ -173,7 +190,8 @@
 		ul > li {
 			
 			background: #fff;
-			&:first-child {
+			// &:first-child {
+			&:nth-child(3n+1) {	
 				height: 117px;
 				.moduleItemIntrotext {					
 					max-height: calc(~"100% - 2em");
@@ -183,7 +201,8 @@
 					bottom: -.3em !important;
 				}
 			}
-			&:not(:first-child) {
+			// &:not(:first-child) {
+			&:not(:nth-child(3n+1)) {
 				.moduleItemTitle {
 					width: calc(~"80% - 1em") !important;
 					font-size: .9em !important;
@@ -207,7 +226,8 @@
 
 	ul > li {
 		background: #fff;
-		&:first-child {
+		// &:first-child {
+		&:nth-child(3n+1) {
 			.moduleItemIntrotext {					
 				max-height: calc(~"100% - 1.8em") !important;
 				padding: 3em 0 0em calc(~"40% + 1em") !important;
@@ -217,8 +237,8 @@
 				bottom: 0 !important;
 			}
 		}
-		
-		&:not(:first-child) {
+		// &:not(:first-child) {
+		&:not(:nth-child(3n+1)) {
 			margin-bottom: .3em !important;
 			.moduleItemTitle {
 				width: calc(~"80% - 1em") !important;

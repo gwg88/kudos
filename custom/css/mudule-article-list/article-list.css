@@ -11,6 +11,7 @@
   left: 0;
   width: 100%;
   margin-bottom: 2em;
+  overflow: hidden;
 }
 .k2ItemsBlock.article-list ul > li:after {
   content: "";

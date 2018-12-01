@@ -1,37 +1,63 @@
-
-.modulenav-slide {
-	/* background:pink; */
+.modulenav-side {
+  width: 100%;
+  margin: 0;
+  margin-top: -100px;
 }
-
-.modulenav-slide .module-title {
-	margin-bottom: 0;
+.modulenav-side ul {
+  font-size: 18px;
 }
+.modulenav-side ul li a {
+  padding-top: 0;
+  padding-left: 40px;
+  background: url(../../img/module-nav-side/normal.png) no-repeat 90% center;
+  border-radius: 0;
+  /* background-color: #ddd; */
 
-.modulenav-slide ul {
-	font-size: 18px;
+  color: #666666;
+  height: 65px;
+  line-height: 65px;
+  background-color: #f7f7f7;
+  display: block;
 }
-
-.modulenav-slide ul li {
-	
+.modulenav-side .module-title {
+  width: 100%;
+  height: 100px;
+  font-size: 26px;
+  padding-left: 40px;
+  line-height: 80px;
+  color: #fff;
+  background: #0f6576;
 }
-
-.modulenav-slide ul li a {
-	padding-top:0; 
-	padding-left: 40px;
-	background: url(../../img/module-nav-side/normal.png) no-repeat 90% center;
-	border-radius: 0;
-	/* background-color: #ddd; */
-	color:rgb(102, 102, 102);
-	height: 65px;
-	line-height: 65px;
-	background-color: rgb(247, 247, 247);
-	display: block;
+.modulenav-side .module-title span {
+  position: relative;
+  width: 100%;
 }
-
-.modulenav-slide .nav-pills > li.active > a, 
-.modulenav-slide .nav-pills > li.active > a:hover, 
-.modulenav-slide .nav-pills > li.active > a:focus {
-	background: url(../../img/module-nav-side/act.png) no-repeat 90% center;
-	background-color: #fff;
-	color: rgb(15,102,119);
+.modulenav-side .module-title span:after {
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  bottom: -3.5em;
+  width: 250px;
+}
+.modulenav-side .nav-pills > li.active > a,
+.modulenav-side .nav-pills > li.active > a:hover,
+.modulenav-side .nav-pills > li.active > a:focus {
+  background: url(../../img/module-nav-side/act.png) no-repeat 90% center;
+  background-color: #fff;
+  color: #0f6677;
+}
+#Mod88 .module-title span:after {
+  content: "BRAND INTRODUCTION";
+}
+#Mod89 .module-title span:after {
+  content: "FRANCHISE CENTER";
+}
+#Mod90 .module-title span:after {
+  content: "STORE IMAGE";
+}
+#Mod91 .module-title span:after {
+  content: "COMPANY DYNAMICS";
+}
+#Mod92 .module-title span:after {
+  content: "OFFLINE STORE";
 }
